@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: repeating-linear-gradient(45deg, #e9e7f3 10px, #ffeded 20px);
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  padding-top: 100px;
+  padding-left: 24px;
+  min-height: 1500px;
+}
+
+.scroll-example {
+  background-color: teal;
+  padding: 10px;
+  overflow: hidden;
+  color: white;
+}
+
+
+.height-example {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  font: inherit;
+}
+
+.height-example--1 {
+  background-color: darkgreen;
+  color: white;
+}
+
+.height-example--2 {
+  background-color: royalblue;
+  color: white;
+}
